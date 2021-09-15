@@ -1,0 +1,95 @@
+body{
+background-image: url(image2.jpeg);
+background-size: cover;
+	width: 100%;
+	height:100%;
+}
+
+	.page{
+	background-color:blue;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+
+}
+nav ul li a{
+	text-decoration: underline;
+	color: yellow;
+	font-size: 20px;
+}
+.log{
+	
+	border: 0px solid white;
+	border-radius: 30px;
+	width: 20%;
+	height: 40px;
+	padding: 10px;
+}
+.reg{
+	background-color:green;
+	border: 0px solid white;
+	border-radius: 30px;
+	width: 20%;
+	height: 40px;
+	padding: 10px;
+}
+p{
+	font-size: 20px;
+}
+.last{
+	margin:  300px;
+	color: white;
+}
+u{
+		color: green;
+			}
+button {
+	width: 130px;
+	height: 40px;
+	border-radius: 30px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+button:hover {
+	border: 2px black solid;
+}
+.btn-one {
+	background-color: white;
+	color: black;
+	
+}
+.btn-two {
+	background-color: green;
+	color: white;
+}
+.mid {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 150px;
+	color: white;
+
+}
+#link {
+	font-size: 30px;
+}
+.name::before {
+	content: '';
+	position: absolute;
+	top: 394px;
+	background: rgb(51, 155, 51);
+	width: 145px;
+	height: 2px;
+}
+.down {
+	position: absolute;
+	color: white;
+	left: 550px;
+	bottom: 50px;
+}
